@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #dcdcdc 27.26%, #a9a9a9 96.03%);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-image: url("https://static9.depositphotos.com/1554103/1132/i/950/depositphotos_11325428-stock-photo-light-gray-pentagon-white-stripe.jpg");
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+  padding: 8px 16px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 8px, 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+  border: 2px solid #0e1d2f;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #dcdcdc 27.49%, #a9a9a9 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos-titulo {
+  list-style: nome;
+  font-weight: 700;
+  font-size: 36px;
+  color: #1c1c1c;
+}
+
+.projetos-item {
+  list-style-type: nome;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+  color: #1c1c1c;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: nome;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #808080 27.26%, #1c1c1c 96.03%);
+}
+
+.dark .container {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/588/804/883/pattern-texture-digital-art-wallpaper-preview.jpg");
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
