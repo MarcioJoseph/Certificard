@@ -57,7 +57,7 @@ body {
 .projetos {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(230.65deg, #dcdcdc 27.49%, #a9a9a9 83.19%);
+  background: linear-gradient(230.65deg, #ebecec 27.49%, #bdbbbb 83.19%);
   margin-top: 32px;
   padding: 32px;
   box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
@@ -90,15 +90,24 @@ body {
 
 .dark .container {
   background-image: url("https://c4.wallpaperflare.com/wallpaper/588/804/883/pattern-texture-digital-art-wallpaper-preview.jpg");
-  color: #f6f6f6;
+  color: #ece6e6;
 }
 
 .dark .projetos {
-  color: #1c1c1c;
+  color: #ece6e6;
+  background: linear-gradient(230.65deg, #2f3131 27.49%, #161616 83.19%);
 }
 
 .dark .tema button {
-  background: #1c1c1c;
-  color: #ffffff;
+  background: #02090c;
+  color: #e7eef1;
   border: 2px solid #f7f7f7;
+}
+
+.dark .projetos-titulo {
+  color: #ece6e6;
+}
+
+.dark .projetos-item {
+  color: #ece6e6;
 }
